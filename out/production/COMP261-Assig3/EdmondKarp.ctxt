@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=EdmondKarp
+comment0.text=\r\n\ Implementation\ of\ Edmonds-Karp\ algorithm\ to\ find\ augmentation\ paths\ and\ network\ flow.\r\n
+comment1.params=graph
+comment1.target=void\ computeResidualGraph(Graph)
+comment2.params=graph
+comment2.target=void\ printResidualGraphData(Graph)
+comment3.params=id
+comment3.target=Edge\ getEdge(java.lang.String)
+comment3.text=\r\n\ Return\ the\ corresonding\ edge\ for\ a\ given\ key\r\n
+comment4.params=path\ bottleneck
+comment4.target=void\ updateFlow(java.util.ArrayList,\ int)
+comment4.text=\r\n\ Udates\ the\ flow\ to\ reflect\ bottleneck\ value.\r\n
+comment5.params=path
+comment5.target=int\ bottleneck(java.util.ArrayList)
+comment5.text=\r\n\ Calculates\ the\ bottleneck\ of\ an\ augmentation\ path\r\n
+comment6.params=graph\ from\ to
+comment6.target=java.util.ArrayList\ calcMaxflows(Graph,\ City,\ City)
+comment6.text=\r\n\ Finds\ maximum\ flow\ through\ a\ graph\ from\ start\ city\ to\ sink\ city.\r\n
+comment7.params=graph\ s\ t
+comment7.target=javafx.util.Pair\ bfs(Graph,\ City,\ City)
+comment7.text=\r\n\ Runs\ a\ BFS\ on\ the\ graph\ from\ start\ city\ (s)\ -->\ sink\ city\ (t).\r\n\ Returns\ an\ augmentation\ path\ along\ with\ the\ bottleneck\ value\ for\ the\ path.\r\n
+numComments=8
